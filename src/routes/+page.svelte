@@ -1,27 +1,22 @@
-<script>
-    import Navbar from "../components/navbar.svelte";
-</script>
-
-<!-- Fix this shit, so messy... -->
-<main>
-    <div class="navbar">
-        <Navbar/>
+<div class="container">
+    <h1>This is spline!</h1>
+    <div class="spline-container">
+<spline-viewer hint loading-anim url="https://prod.spline.design/BXPZa7hTimtv0lpR/scene.splinecode"></spline-viewer>
     </div>
-    <div class="hero">
-
-    </div>
-</main>
-<footer>
-    this is a footer
-</footer>
+</div>
 
 <style>
-    main {
-        font-size: 16px;
-        height: 100vh;
-        background-image: url('images/bread.png');
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 500px;
+        height: calc(100vh - 79px);
     }
-    .navbar {
-       background-color: rgb(59, 59, 59);
+    .spline-container {
+        position: absolute;
+        width: 1000px;
+        height: auto;
+        z-index: -2;
     }
 </style>
