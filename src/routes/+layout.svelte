@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <header>
     <h1>CATAPULT</h1>
     <nav>
@@ -9,26 +12,11 @@
     </nav>
 </header>
 <slot />
-<footer></footer>
+<footer>
+    
+</footer>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
-    
-    :global(*) {
-        padding: 0;
-        margin: 0;
-        font-family: monospace;
-        font-size: 16px;
-        color: white;
-    }
-    :global(body) {
-        height: 100vh;
-        background-color: rgb(34, 34, 34);
-    }
-    :global(h1) {
-        font-size: 32px;
-        font-family: 'Kelly Slab', cursive;
-    }
     header h1 {
         color: gold;
     }
@@ -39,7 +27,7 @@
     }
     header {
         justify-content: space-between;
-        padding: 20px;
+        padding-block: 20px;
         margin-inline: 10%;
     }
     nav ul {
