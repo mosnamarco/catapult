@@ -4,7 +4,7 @@
 
 <section>
     <div class="hero-container">
-        <p style="font-size: 64px;">
+        <p style="font-size: 64px; font-family: 'Dancing Script', cursive;">
             <span
                 style="color: gold; font-size: 64px; font-family: 'Kelly Slab', cursive;"
                 >CATAPULT</span
@@ -73,7 +73,8 @@
         z-index: -1;
     }
     .menu-section {
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.534);
+        backdrop-filter: blur(20px);
         padding-block: 30px;
     }
     .menu-section .container {

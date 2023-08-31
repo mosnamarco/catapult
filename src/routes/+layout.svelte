@@ -2,7 +2,7 @@
 </script>
 
 <header>
-    <h1>CATAPULT</h1>
+    <p>CATAPULT</p>
     <nav>
         <ul>
             <li><a href="#">About</a></li>
@@ -12,15 +12,15 @@
     </nav>
 </header>
 <slot />
-<footer>
-    
-</footer>
+<footer />
 
 <style>
-    header h1 {
+    header p {
+        font-family: 'Kelly Slab', cursive;
         color: gold;
     }
-    header, nav ul {
+    header,
+    nav ul {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -39,5 +39,4 @@
     nav ul li a {
         text-decoration: none;
     }
-
 </style>

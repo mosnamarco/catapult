@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kelly+Slab&display=swap');
+
 
 * {
     padding: 0;
@@ -7,17 +9,21 @@
     font-size: 16px;
     color: white;
 }
+
 body {
     height: 100vh;
     background-color: rgb(34, 34, 34);
 }
+
 h1 {
     font-size: 32px;
     font-family: 'Kelly Slab', cursive;
 }
+
 h2 {
     font-size: 28px;
 }
+
 button {
     background-color: red;
 }
